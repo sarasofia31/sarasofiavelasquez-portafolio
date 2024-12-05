@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Mi portafolio web</title>
+</head>
+<body>
+  <!-- Sección Inicio -->
+  <section id="inicio">
+    <div class="contenido">
+      <header>
+        <div class="contenido-header">
+          <h1>Mi Portafolio Web</h1>
+          <nav id="nav" class="">
+            <ul id="links">
+              <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+              <li><a href="#sobremi" onclick="seleccionar(this)">Sobre Mi</a></li>
+              <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+              <li><a href="#portafolio" onclick="seleccionar(this)">Portafolio</a></li>
+              <li><a href="#contactame" onclick="seleccionar(this)">Contáctame</a></li>
+            </ul>
+          </nav>
+          <div id="icono-nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </header>
+      <div class="presentacion">
+        <p class="bienvenida">Bienvenidos</p>
+        <h2>Soy <span>Sara Sofía Velasquez</span>, Desarrolladora web</h2>
+        <p class="descripcion">Enfocada en diseñar y construir soluciones tecnológicas eficientes e innovadoras. Aquí encontrarás una selección de mis proyectos, habilidades y experiencia, que reflejan mi compromiso con la excelencia y la creatividad en cada línea de código. Si buscas colaborar en un proyecto, explorar ideas o simplemente conectar, no dudes en contactarme. ¡Gracias por tu visita y espero que encuentres inspiración en mi trabajo!🚀
+        </p>
+        <a href="#portafolio">Ir a portafolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Sobre Mi -->
+  <section id="sobremi">
+    <div class="contenedor-foto">
+      <img src="https://github.com/sarasofia31/Portafolio/blob/main/imagen%20yo.jpg?raw=true" alt="Foto de Sara Sofía">
+    </div>
+    <div class="sobremi">
+      <p class="titulo-seccion">Sobre Mi</p>
+      <h2>Hola, soy <span>Sara Sofía Velásquez</span></h2>
+      <h3>Desarrolladora Web</h3>
+      <p>Desarrolladora de software en formacion, con interes en el diseño, desarrollo e implementación de soluciones tecnológicas innovadoras. Mi pasión por la tecnología me impulsa a crear y buscar herramientas eficientes y funcionales que generen un impacto positivo. 
+        <p></p>Además de mi enfoque técnico, valoro profundamente el aprendizaje continuo y la colaboración en equipo, aspectos que considero esenciales para abordar desafíos complejos y entregar resultados de calidad. En el ámbito personal, me apasiona explorar nuevas tecnologías, resolver problemas y aprender constantemente. </p>
+      <a href="#">Descargar CV</a>
+    </div>
+  </section>
+
+  <!-- Sección Servicios -->
+  <section id="servicios">
+    <h3 class="titulo-seccion">Mis Servicios</h3>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseño de sitios web</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>Web</li>
+          <li>Gráfico</li>
+          <li>SEO</li>
+        </ul>
+        <p> Diseño de sitios web enfocado en crear plataformas modernas, funcionales y atractivas que se adapten a las necesidades de tu negocio. Mi enfoque combina creatividad, diseño centrado en el usuario y las mejores prácticas de desarrollo web para garantizar que tu sitio no solo destaque visualmente, sino que también sea intuitivo, rápido y compatible con todos los dispositivos</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Optimización SEO</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>SEO</li>
+          <li>Contenido</li>
+          <li>Análisis</li>
+        </ul>
+        <p>Diseñado para mejorar la visibilidad y el rendimiento de tu sitio web en los motores de búsqueda. Mediante estrategias personalizadas y las mejores prácticas, ayudamos a que tu negocio alcance a su público objetivo de manera orgánica y eficiente.</p>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-laptop-code"></i></span>
+        <h4>Programación Frontend</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p> Desarrollo frontend enfocados en crear interfaces de usuario modernas, funcionales y visualmente atractivas. Mi objetivo es garantizar que cada proyecto combine un diseño impecable con una experiencia de usuario (UX) intuitiva y accesible, optimizada para todos los dispositivos.</p>
+      </div>
+      <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-database"></i></span>
+        <h4>Programación Backend</h4>
+        <hr>
+        <ul class="servicios-tag">
+          <li>PHP</li>
+          <li>Node.js</li>
+          <li>Base de datos</li>
+        </ul>
+        <p>Diseñados para crear aplicaciones robustas, escalables y seguras. Mi enfoque se centra en construir la lógica interna y la arquitectura que garantizan un rendimiento óptimo, una integración fluida con bases de datos y APIs, y una experiencia de usuario confiable.</p>
+      </div>
+    </div>
+    
+  </section>
+  <div class="contenedor-skills" id="skills">
+    <h3>Habilidades</h3>
+    <div class="skills">
+      <div class="info">
+        <p><span class="lista"></span>Html y Css</p>
+        <span class="porcentaje">95%</span>
+      </div>
+      <div class="barra">
+        <div id="html" class="barra-progreso1"></div>
+      </div>
+    </div>
+    <div class="skills">
+      <div class="info">
+        <p><span class="lista"></span>JavaScript</p>
+        <span class="porcentaje">90%</span>
+      </div>
+      <div class="barra">
+        <div id="js" class=""></div>
+      </div>
+    </div>
+    <div class="skills">
+      <div class="info">
+        <p><span class="lista"></span>Base de Datos</p>
+        <span class="porcentaje">95%</span>
+      </div>
+      <div class="barra">
+        <div id="bd" class=""></div>
+      </div>
+    </div>
+    <div class="skills">
+      <div class="info">
+        <p><span class="lista"></span>Photoshop</p>
+        <span class="porcentaje">80%</span>
+      </div>
+      <div class="barra">
+        <div id="ps" class=""></div>
+      </div>
+    </div>
+  </div>
+  <section id="portafolio">
+    <h3 class="titulo-seccion">Mis proyectos</h3>
+    <div class="fila">
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="https://i0.wp.com/www.baluart.net/UserFiles/Image/diseno_web/art90/art90.png" alt="">
+        <div class="info">
+          <h4>Breve formulario funcional en html</h4>
+          <p>Formulario en HTML</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="https://adminlte.io/wp-content/uploads/2021/07/bootstrap-blog-templates.jpg" alt="">
+        <div class="info">
+          <h4>Blog personal con las secciones en html y css</h4>
+          <p>Estilos CSS</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo2MbDhHmD8zX1OKsIcm2oKnk0HQVVyD_gzQ&s" alt="">
+        <div class="info">
+          <h4>Ecommerce de productos estudiantiles</h4>
+          <p>Diseño Web</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="contacto">
+    <h3 class="titulo-seccion">Contactame ahora</h3>
+    <div class="contenedor-form">
+      <form action="">
+        <div class="fila mitad">
+          <input type="text" placeholder="Nombre Completo" class="input-mitad">
+          <input type="text" placeholder="Correo Electronico" class="input-mitad">
+        </div>
+        <div class="fila">
+          <input type="text" placeholder="Tema..." class="input-full">
+        </div>
+        <div class="fila">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+        </div>
+        <input type="sumit" value="Enviar Mensaje" class="btn-enviar">
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>Todos los derechos de autor reservados - 2024</p>
+    <div class="redes">
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
